@@ -1,0 +1,9 @@
+variables:
+  V: production
+  ENV: $V
+
+build:
+  script:
+    - echo $KEY
+  environment:
+    name: $ENV
